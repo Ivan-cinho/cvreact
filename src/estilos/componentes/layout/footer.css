@@ -1,0 +1,52 @@
+footer {
+    border-top: 1px solid var(--clr-4);
+    width: 100%;
+    background-color: var(--blanco);
+    height: 15vh;
+    position: relative; /* Cambiado de fixed a relative */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5% !important;
+}
+
+footer section div {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.btn-social {
+    width: 1.2em;
+    height: 1.2em;
+    display: flex;
+    border-radius: 50%;
+    border: var(--clr-2) solid 3px;
+    font-size: xx-large;
+    /* color: var(--clr-2); */
+    color: aliceblue;
+    text-align: center;
+}
+
+.fab, .fa-envelope, .fa-phone, .fa-linkedin, .fa-github {
+    font-size: x-large!important;
+    font-weight: 500;
+    color: var(--clr-2);
+    margin: auto;
+}
+
+.btn-social:hover{
+    background-color: var(--clr-2);
+    color: var(--blanco);
+}
+
+.btn-social i:hover {
+    color: var(--blanco);
+}
+

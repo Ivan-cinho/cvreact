@@ -1,0 +1,88 @@
+
+.aside {
+    padding: 16% 2% 2% 2%;
+    background-color: var(--clr-3);
+    width: 16vw;
+    position: absolute;
+    height: 45vw;
+    top: 14vh;
+    left: 2%;
+    z-index: 0;
+}
+
+
+.contCont {
+    display: flex;
+}
+
+.contCont, p {
+    margin: auto 0;
+}
+
+.contSocial {
+    margin: 3% 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fab, .fa-envelope, .fa-phone, .fa-linkedin, .fa-github {
+    font-size: x-large !important;
+    font-weight: 500;
+    color: black;
+}
+
+.fa-solid, .fas {
+    font-size: large !important;
+    font-weight: 900;
+}
+
+.contBotonera {
+    display: grid;
+}
+
+button {
+    display: block;
+    /* margin: 3%; */
+}
+
+
+.btn-primary {
+    margin: 5% 0;
+    --bs-btn-color: var(--clr-1);
+    --bs-btn-bg: var(--clr-2);
+    --bs-btn-border-color: var(--clr-2);
+    --bs-btn-hover-color: var(--clr-1);
+    --bs-btn-hover-bg: var(--clr-4);
+    --bs-btn-hover-border-color: var(--clr-4);
+    --bs-btn-active-bg: var(--clr-4);
+}
+
+.btn-primary:focus {
+    background-color: var(--clr-4);
+}
+
+.accordion {
+    --bs-accordion-border-color: none;
+    --bs-accordion-bg: none;
+    --bs-accordion-btn-padding-x: none;
+    --bs-accordion-btn-icon-transform: rotate(-90deg);
+    --bs-accordion-btn-focus-border-color: none;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-bg: none;
+}
+
+.accordion-body {
+    padding: 0 5%;
+}
+
+.accordion-item {
+    margin: 5% 0;
+    padding: 2%;
+}
+.accordion-item:hover {
+    background-color: var(--clr-1);
+}
+
+.accordion-collapse.show {
+    display: block !important;
+}

@@ -1,0 +1,29 @@
+
+
+.encabezado {
+    background-color: var(--blanco);
+    color: var(--clr-4);
+    height: 20vh;
+    position: relative;
+    margin-bottom: 2%;
+    border-bottom: 1px solid var(--clr-4);
+}
+
+
+.elh1 {
+    border-bottom: solid 1px;
+    padding-bottom: 1%;
+    width: 47.5%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.foto {
+    /* background-image: url(/public/imagenes/cv.jpg); */
+    position: absolute;
+    width: 14vw;
+    z-index: 2;
+    top: 9%;
+    left: 3%;
+    border: solid 4px var(--clr-1);
+}

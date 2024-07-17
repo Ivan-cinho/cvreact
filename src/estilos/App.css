@@ -1,0 +1,209 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+  background-color: var(--clr-1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+:root {
+  --clr-1: #F5EFE7;
+  --clr-2: #7a7a7a;
+  --clr-3: #D8C4B6;
+  --clr-4: #4d4d4e;
+  --verdeWhatsapp: #0df053;
+  --blanco: #ffffff;
+}
+
+.holder {
+  width: 70vw;
+  margin: 0% 23%;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h3 {
+  color: var(--clr-2);
+  font-size: x-large;
+  padding: 1%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+h4 {
+  font-size: medium !important;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  font-size: small !important;
+}
+
+main {
+  flex: 1;
+  margin-top: 3%;
+  padding-bottom: 10vh;
+}
+
+.content {
+  padding-bottom: 0vh;
+}
+
+/* carta de presentacion */
+
+.Carta {
+  padding: 0 3% 1% 3%;
+}
+
+/* el bendito acordeon */ 
+li{
+  list-style: none;
+  transition: .3s;
+  height: 1em;
+  overflow: hidden;
+  padding: 1% 1% 3% 1%;
+}
+
+.list {
+  cursor: pointer;
+}
+
+.list:hover {
+  background-color: var(--clr-3);
+  border-radius: 7px;
+}
+
+.descripcion {
+  height: 2rem;
+  font-size: medium;
+  width: 90%;
+  margin: 2% auto;
+  text-align: center;
+}
+
+.otraClase{
+  display: flex;
+  justify-content: space-between;
+}
+
+.lugar{
+  text-decoration: none;
+}
+
+
+.fa-chevron-down{
+  transition: .3s;
+}
+
+.scale{
+  height: 7em;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+}
+
+.acordeones {
+  padding: 0;
+  width: 97%;
+  margin: auto;
+}
+
+.contTarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+.card {
+  max-width: 35%;
+  margin: 1.5%;
+  display: inline-block;
+}
+
+.cardPorta .card-body p {
+  padding: 5%;
+}
+
+.card .card-body button {
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+}
+
+element.style {
+  min-width: none;
+}
+
+.card-text{
+  margin: 0 auto 2%;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.iconoCard {
+  margin-right: 5%;
+}
+
+
+/* tarjetas portafolios */
+
+.referenciaPortafolios{
+  color: var(--blanco);
+}
+
+/* tarjetas certificaciones */
+
+img, svg {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.tarjetaCertis {
+  width: 40%;
+}
+
+/* tarjetas referencias */
+.card-referencias{
+  display: block;
+}
+
+.card-link+.card-link {
+  margin-left: 0;
+}
+
+
+
+.linkedRefes:hover {
+  color: var(--blanco);
+  background-color: #000;
+}
+
+/* separadores de subsecciones */
+.seccionConBordes{
+  padding: 2% 0%;
+  border: 1px solid #000;
+  transition: height 0.3s ease;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 3%;
+}
+
+.contCont, p {
+  width: 95%;
+  margin: auto !important;
+}
